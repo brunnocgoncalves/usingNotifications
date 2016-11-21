@@ -29,6 +29,12 @@ class ViewController: UIViewController {
             
         })
     }
+    
+    @IBAction func getNotificationPressed(sender: UIButton){
+        
+        
+        
+    }
 
 }
 
