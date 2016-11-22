@@ -13,6 +13,7 @@
 		121989901DE34ECA00819A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1219898F1DE34ECA00819A68 /* Assets.xcassets */; };
 		121989931DE34ECA00819A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121989911DE34ECA00819A68 /* LaunchScreen.storyboard */; };
 		1219899E1DE34ECA00819A68 /* UsingNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219899D1DE34ECA00819A68 /* UsingNotificationsTests.swift */; };
+		1253035F1DE3DF860006DD3A /* battlefield-cool-192730.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1253035E1DE3DF860006DD3A /* battlefield-cool-192730.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		121989991DE34ECA00819A68 /* UsingNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1219899D1DE34ECA00819A68 /* UsingNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNotificationsTests.swift; sourceTree = "<group>"; };
 		1219899F1DE34ECA00819A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1253035E1DE3DF860006DD3A /* battlefield-cool-192730.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "battlefield-cool-192730.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				1219898A1DE34ECA00819A68 /* ViewController.swift */,
 				1219898C1DE34ECA00819A68 /* Main.storyboard */,
 				1219898F1DE34ECA00819A68 /* Assets.xcassets */,
+				1253035E1DE3DF860006DD3A /* battlefield-cool-192730.jpg */,
 				121989911DE34ECA00819A68 /* LaunchScreen.storyboard */,
 				121989941DE34ECA00819A68 /* Info.plist */,
 			);
@@ -184,6 +187,7 @@
 				121989931DE34ECA00819A68 /* LaunchScreen.storyboard in Resources */,
 				121989901DE34ECA00819A68 /* Assets.xcassets in Resources */,
 				1219898E1DE34ECA00819A68 /* Main.storyboard in Resources */,
+				1253035F1DE3DF860006DD3A /* battlefield-cool-192730.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +414,7 @@
 				121989A41DE34ECA00819A68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		121989A51DE34ECA00819A68 /* Build configuration list for PBXNativeTarget "UsingNotificationsTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +423,7 @@
 				121989A71DE34ECA00819A68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
