@@ -57,6 +57,7 @@ class ViewController: UIViewController {
         attachment = try! UNNotificationAttachment(identifier: "myNotification", url: imageURL, options: .none)
         
         let notif = UNMutableNotificationContent()
+        notif.categoryIdentifier = "myNotificationCategory"
         notif.title = "New notification"
         notif.subtitle = "Realy nice!!!"
         notif.body = "Using notification on iOS 10 is just amazing!!!"
