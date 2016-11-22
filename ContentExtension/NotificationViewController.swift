@@ -40,5 +40,20 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
         
         
     }
+    
+    func didReceive(_ response: UNNotificationResponse, completionHandler completion: @escaping (UNNotificationContentExtensionResponseOption) -> Void) {
+        
+        if response.actionIdentifier == "wow"{
+            
+            completion(.dismissAndForwardAction)
+            
+        }
+        if response.actionIdentifier == "dismiss"{
+            
+            completion(.dismiss)
+            
+        }
+        
+    }
 
 }
